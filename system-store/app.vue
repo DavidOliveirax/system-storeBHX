@@ -4,6 +4,7 @@
       <template #header>
         <div class="flex justify-between">
           <h1>Welcome to Nuxt UI Starter</h1>
+          {{ data }}
           <ColorScheme><USelect v-model="$colorMode.preference" :options="['system', 'light', 'dark']" /></ColorScheme>
         </div>
       </template>
@@ -11,3 +12,6 @@
     </UCard>
   </UContainer>
 </template>
+<script setup lang="ts">
+const { data } = await useFetch('/api/teste')
+</script>
