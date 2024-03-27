@@ -4,14 +4,11 @@
       <MenuHeader />
     </div>
     <div>
-      Olá
-    </div>
-    <div>
-      Mundo
+      <Clientes />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-</script>
 
+</script>

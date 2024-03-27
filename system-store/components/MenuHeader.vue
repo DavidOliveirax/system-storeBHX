@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between">
-    <div class="flex h-screen flex-col justify-between border-e bg-white">
+    <div class="flex h-screen flex-col justify-between border-e bg-gray-600">
       <div class="px-4 py-6">
         <span class="grid h-10 w-32 place-content-center rounded-lg bg-gray-100 text-xs text-gray-600">
           Logo
@@ -10,7 +10,7 @@
           <li>
             <a
               href="#"
-              class="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700"
+              class="block rounded-lg  px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
             >
               Clientes
             </a>
@@ -19,7 +19,7 @@
           <li>
             <details class="group [&_summary::-webkit-details-marker]:hidden">
               <summary
-                class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-white hover:bg-gray-100 hover:text-gray-700"
               >
                 <span class="text-sm font-medium"> Produtos </span>
     
@@ -43,7 +43,7 @@
                 <li>
                   <a
                     href="#"
-                    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                    class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
                   >
                     Produtos
                   </a>
@@ -52,7 +52,7 @@
                 <li>
                   <a
                     href="#"
-                    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                    class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
                   >
                     Serviços
                   </a>
@@ -64,7 +64,7 @@
           <li>
             <a
               href="#"
-              class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
             >
               Vendas
             </a>
@@ -73,7 +73,7 @@
           <li>
             <a
               href="#"
-              class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
             >
               Ordem de Serviço
             </a>
@@ -82,7 +82,7 @@
           <li>
             <details class="group [&_summary::-webkit-details-marker]:hidden">
               <summary
-                class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                class="flex cursor-pointer items-center justify-between rounded-lg px-4 py-2 text-white hover:bg-gray-100 hover:text-gray-700"
               >
                 <span class="text-sm font-medium"> Caixa </span>
     
@@ -106,7 +106,7 @@
                 <li>
                   <a
                     href="#"
-                    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                    class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
                   >
                     Caixa
                   </a>
@@ -115,7 +115,7 @@
                 <li>
                   <a
                     href="#"
-                    class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                    class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700"
                   >
                     Relatório
                   </a>
