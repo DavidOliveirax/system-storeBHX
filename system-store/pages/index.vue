@@ -1,28 +1,17 @@
-<template >
-  <div>
-    <MenuHeader />
-  </div>
-  <div>
-    <label for="UserEmail" class="block text-xs font-medium text-gray-700 dark:text-gray-200">
-      Email
-    </label>
-  
-    <input
-      type="email"
-      id="UserEmail"
-      placeholder="john@rhcp.com"
-      class="mt-1 w-full rounded-md border-gray-200 shadow-sm sm:text-sm dark:border-gray-700 dark:bg-gray-800 dark:text-white"
-    />
-  </div>
-  <div>
-
+<template>
+  <div class="flex">
+    <div>
+      <MenuHeader />
+    </div>
+    <div>
+      Olá
+    </div>
+    <div>
+      Mundo
+    </div>
   </div>
 </template>
 
-
-
-
-
 <script setup lang="ts">
-/* const { data } = await useFetch('/api/teste')*/
 </script>
+
