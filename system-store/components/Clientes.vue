@@ -1,44 +1,89 @@
 <template>
-    <div>
+    <div class="flex justify-center mt-9 ml-9">
         <form action="form.py" method="GET" autocomplete="on" class="form" id="formulario">
-
-            <label for="inome">Nome completo:
-                <input type="text" name="nome" id="inome"></label><br>
-
-            <label for="inasce">Data de Nascimento:
-                <input type="date" name="nasce" id="inasce"></label><br>
-
-            <label for="idoc">CPF:
-                <input type="document" name="CPF" id="idoc"></label><br>
-
-            <label for="itel">Numero de telefone:
-                <input type="tel" name="telefone" id="itel"></label><br>
-
-            <div>
-                <label for="UserEmail" class="block text-xs font-medium text-white"> Email </label>
-                <input type="email" id="UserEmail" placeholder=""
-                    class="mt-1 w-full rounded-md border-gray-200 shadow-sm sm:text-sm" />
+            <div class="flex">
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserName"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-60">
+                        <span class="text-xs font-medium text-white"> Nome: </span>
+                        <input type="name" id="UserName" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm">
+                    </label>
+                </div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserSocial"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-60">
+                        <span class="text-xs font-medium text-white"> Razão Social: </span>
+                        <input type="name" id="UserSocial" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm">
+                    </label>
+                </div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserDocument"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-60">
+                        <span class="text-xs font-medium text-white"> CPF/CNPJ: </span>
+                        <input type="number" id="UserDocument" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm">
+                    </label>
+                </div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserEmail"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
+                        <span class="text-xs font-medium text-white"> Email: </span>
+                        <input type="email" id="UserEmail" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
+                    </label>
+                </div>
             </div>
+            <div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserCep"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
+                        <span class="text-xs font-medium text-white"> CEP: </span>
+                        <input type="number" id="UserCep" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
+                    </label>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserLocal"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
+                        <span class="text-xs font-medium text-white"> Endereço: </span>
+                        <input type="text" id="UserLocal" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
+                    </label>
+                </div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserLocal"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
+                        <span class="text-xs font-medium text-white"> Bairro: </span>
+                        <input type="text" id="UserLocal" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
+                    </label>
+                </div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="UserLocal"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
+                        <span class="text-xs font-medium text-white"> Cidade: </span>
+                        <input type="text" id="UserLocal" placeholder=""
+                            class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
+                    </label>
+                </div>
+                <div class="w-72 pb-2.5 pr-1">
+                    <label for="HeadlineAct"
+                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
+                        Estado
 
-            <label
-    for="UserEmail"
-    class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600"
-  >
-    <span class="text-xs font-medium text-gray-700"> Email </span>
-  
-    <input
-      type="email"
-      id="UserEmail"
-      placeholder="anthony@rhcp.com"
-      class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
-    />
-  </label>
-
-            <label for="isenha1">Digite sua senha:
-                <input type="password" name="senha" id="isenha1"></label><br>
-
-            <p><input type="submit" value="Salvar" id="submit" class="bg-white text-black"></p>
-
+                        <select name="HeadlineAct" id="HeadlineAct"
+                            class="mt-1.5 w-full rounded-lg border-gray-300 text-white sm:text-sm">
+                            <option value="">Escolha seu estado...</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
         </form>
     </div>
 </template>
