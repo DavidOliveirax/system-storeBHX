@@ -1,3 +1,4 @@
+import BuscadorCep from './Dropdown/BuscadorCep.vue';
 <template>
     <div class="flex justify-center mt-9 ml-9">
         <form action="form.py" method="GET" autocomplete="on" class="form" id="formulario">
@@ -70,20 +71,14 @@
                             class="mt-1 w-full border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm" />
                     </label>
                 </div>
-                <div class="w-72 pb-2.5 pr-1">
-                    <label for="HeadlineAct"
-                        class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
-                        Estado
-
-                        <select name="HeadlineAct" id="HeadlineAct"
-                            class="mt-1.5 w-full rounded-lg border-gray-300 text-white sm:text-sm">
-                            <option value="">Escolha seu estado...</option>
-                            <option value="AC">Acre</option>
-                            <option value="AL">Alagoas</option>
-                        </select>
-                    </label>
+                <div>
+                    <ChangeState />
                 </div>
             </div>
         </form>
     </div>
 </template>
+
+<script>
+    
+</script>
