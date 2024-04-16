@@ -4,7 +4,7 @@
             class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600">
             <span class="text-xs font-medium text-white"> Estado: </span>
 
-            <USelect color="gray" variant="none" size="2xs" placeholder="Selecione um estado."v-model="estados" :options="estados" />
+            <USelect color="gray" variant="outline" size="2xs" placeholder="Selecione um estado."v-model="estados" :options="estados" />
         </label>
     </div>
 </template>
