@@ -68,34 +68,38 @@ import BuscadorCep from './Dropdown/BuscadorCep.vue';
                 <div>
                     <ChangeState />
                 </div>
-                <a class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600"
-                    href="#">
-                    Enviar
-                </a>
+
             </div>
-            Nome {{ name }} <br>
-            Razão Social {{ social }} <br>
-            Documento {{ document }} <br>
-            Email {{ email }} <br>
-            Endereço {{ local }} <br>
-            Bairro {{ district }} <br>
-            Cidade {{ city }} <br>
+            <div class="flex justify-end pt-2.5">
+                <button
+                    class="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600"
+                    type="submit" @click="submit">
+                    Enviar
+                </button>
+            </div>
+            Nome {{ userData.name }} <br>
+            Razão Social {{ userData.social }} <br>
+            Documento {{ userData.document }} <br>
+            Email {{ userData.email }} <br>
+            Endereço {{ userData.local }} <br>
+            Bairro {{ userData.district }} <br>
+            Cidade {{ userData.city }} <br>
         </form>
     </div>
 </template>
 
-<script>
-export default {
-    data() {
-        return {
-            name: "",
-            social: "",
-            document: "",
-            email: "",
-            local: "",
-            district: "",
-            city: "",
-        }  
-    }
+<script setup>
+const userData = {
+    name: "",
+    social: "",
+    document: "",
+    email: "",
+    local: "",
+    district: "",
+    city: "",
+}
+
+function submit() {
+    console.log('Cadastro Enviado!')
 }
 </script>
