@@ -4,7 +4,7 @@
       <MenuHeader />
     </div>
     <div>
-      <Clientes />
+      <ClientesP />
     </div>
   </div>
 </template>
