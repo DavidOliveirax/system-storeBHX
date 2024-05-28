@@ -1,20 +1,18 @@
 <template>
-    <div class="flex">
+    <div class="" id="bg">
+        <img class="w-full h-screen bg-local" src="@/assets/image/galaxy.png" alt="Background">
         <div>
             <MenuHeader />
         </div>
-        <div class="w-full h-screen">
+        <div class="">
             <section class="">
-                    <ClientesP />
-                </section>
-            <img class="w-full h-screen bg-local" src="@/assets/image/galaxy.png" alt="Background">
+                <ClientesP />
+            </section>
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-const pages = [
-    { id: 1, nome: "", path: '/' },
-]
+
 
 </script>

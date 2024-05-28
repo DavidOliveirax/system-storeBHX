@@ -25,7 +25,7 @@
                 <li>
                   <a href="#"
                     class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700">
-                    CPF
+                    {{ menus.nome }}
                   </a>
                 </li>
 
@@ -128,9 +128,9 @@
 
           <div>
             <p class="text-xs">
-              <strong class="block font-medium">Eric Frusciante</strong>
+              <strong class="block font-medium">DDM INFORMÁTICA</strong>
 
-              <span> eric@frusciante.com </span>
+              <span> atendimentoddm@gmail.com </span>
             </p>
           </div>
         </a>
@@ -140,4 +140,8 @@
 </template>
 
 <script setup>
+const menus = [
+    { id: 1, nome: "CPF", path: '/cpf' },
+]
+
 </script>
