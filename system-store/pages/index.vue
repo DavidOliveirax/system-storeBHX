@@ -1,14 +1,12 @@
 <template>
   <div class="flex">
     <div>
-      <MenuHeader />
+      <NuxtLink to="/home"> Home </NuxtLink>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const pages = [
-  { id: 1, nome: "", path: '/'},
-]
+const route = useRoute()
 
 </script>
