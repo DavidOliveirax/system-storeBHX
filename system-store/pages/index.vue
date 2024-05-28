@@ -3,12 +3,12 @@
     <div>
       <MenuHeader />
     </div>
-    <div>
-      <ClientesP />
-    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+const pages = [
+  { id: 1, nome: "", path: '/'},
+]
 
 </script>
