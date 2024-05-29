@@ -21,7 +21,7 @@
 
               <ul class="mt-2 space-y-1 px-4">
                 <li>
-                  <a href="#"
+                  <a href="#" v-on:click="menus"
                     class="block rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-gray-100 hover:text-gray-700">
                     CPF
                   </a>
@@ -138,7 +138,7 @@
 
 <script setup>
 const menus = [
-    { id: 1, nome: "CPF", path: '/cpf' },
+    { id: 1, nome: "CPF", path: '/clientesP' },
 ]
 
 </script>
