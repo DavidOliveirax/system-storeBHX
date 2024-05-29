@@ -1,14 +1,13 @@
-<template>
-    <div class="" id="bg">
-        <img class="w-full h-screen bg-local" src="@/assets/image/galaxy.png" alt="Background">
+<template class>
+    <div class="flex">
         <div>
             <MenuHeader />
         </div>
-        <div class="">
-            <section class="">
+        <section class="size-6/12 mx-auto my-auto">
                 <ClientesP />
             </section>
-        </div>
+    </div>
+    <div>
     </div>
 </template>
 
