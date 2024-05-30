@@ -1,11 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ClientesP from "~/components/ClientesP.vue";
 
 const routes = [
     {
-        path: '/clientesp',
+        path: '/',
         name: 'CPF',
-        component: ClientesP,
+        component: '',
     }
 ]
 
