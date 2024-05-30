@@ -4,7 +4,7 @@
             <MenuHeader />
         </div>
         <section class="size-6/12 mx-auto my-auto">
-                <ClientesP />
+                <BemVindo />
             </section>
     </div>
     <div>
